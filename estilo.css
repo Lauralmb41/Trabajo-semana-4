@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    width:1000px;
+    height: 500px ;
+    background: #e3c1ff;
+}
+
+body{
+    background: #e3c1f7;
+}
+
+.navegacion{
+    width: 500px;
+    margin: 30px auto;
+    background: #e3c1ff;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    /*position: relative;*/
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all. 3s
+}
+
+
+.slider{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}   
+
+.caja{
+    width: 95%;
+    height: 350px;
+    background: #7462C4;
+    position: relative;
+}
+
+.caja1{
+    position: relative;
+    top: 45px;
+    bottom: ;
+    right: ;
+    left: 65px;
+}
+
+.descuentos{
+    position: absolute;
+    top: 45px;
+    right: 65px;
+    width: 20px;
+    height: 20px;
+}
